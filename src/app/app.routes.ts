@@ -13,7 +13,7 @@ export const routes: Routes = [
     component: LandingPageComponent,
   },
   {
-    path: 'facesnaps/id',
+    path: 'facesnaps/:id',
     component: SingleFaceSnapComponent,
   },
 ];

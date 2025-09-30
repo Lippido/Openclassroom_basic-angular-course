@@ -22,6 +22,7 @@ export class FaceSnapComponent {
   }
 
   onViewFaceSnap() {
-    this.router.navigateByUrl(`/facesnaps/${this.faceSnap.id}`);
+    this.router.navigateByUrl(`facesnaps/${this.faceSnap.id}`);
+    console.log(`facesnaps/${this.faceSnap.id}`);
   }
 }

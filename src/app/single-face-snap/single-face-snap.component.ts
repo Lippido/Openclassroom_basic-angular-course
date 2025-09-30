@@ -24,6 +24,7 @@ export class SingleFaceSnapComponent {
   ngOnInit(): void {
     this.prepareInterface();
     this.getFaceSnap();
+    this.faceSnap.id = this.route.snapshot.params['id'];
   }
 
   private prepareInterface() {
